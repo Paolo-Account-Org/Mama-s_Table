@@ -1,5 +1,5 @@
 <script setup>
-import WelcomeItem from './WelcomeItem.vue'
+// import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
@@ -9,7 +9,7 @@ import SupportIcon from './icons/IconSupport.vue'
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
-<template>
+<!-- <template>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
@@ -92,4 +92,11 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
   </WelcomeItem>
+</template> -->
+
+<template>
+  <div class="welcome">
+    <h1>Welcome to Mama's Table!</h1>
+    <p>We are delighted to have you here. At Mama's Table, we believe in the power of good food and great company. Our mission is to create a warm and inviting space where you can enjoy delicious meals made with love and care. Whether you're looking for a cozy spot for a family dinner or a place to catch up with friends, Mama's Table is the perfect destination. Join us and experience the joy of sharing a meal together!</p>
+  </div>
 </template>
