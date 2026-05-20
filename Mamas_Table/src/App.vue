@@ -7,7 +7,8 @@
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/food-list">Food List</RouterLink>
-
+          <RouterLink to="/review">Review</RouterLink>
+          
         </nav>
       </div>
       <hr class="header-divider" />
@@ -26,6 +27,9 @@
            <!-- <Menu /> -->
         </MainContent>
       </main>
+
+        <!-- WhatsApp component can be placed here or inside MainContent based on design preference -->
+        <Whatsapp />
     </div>
 
 
@@ -39,7 +43,8 @@
 import { RouterLink, RouterView } from 'vue-router'
 import SideBar from './views/SideBar.vue';
 import MainContent from './views/MainContent.vue'; // Import your new component
-// imported `Menu` removed — keep view imports minimal
+import Whatsapp from './components/Whatsapp.vue'; // Import the WhatsApp component
+
 </script>
 
 
