@@ -9,6 +9,7 @@ import { RouterView } from 'vue-router'
     <!-- <slot /> This allows RouterView or other content to sit here -->
     <RouterView />
      <!-- <Menu /> -->
+      
   </div>
 </template>
 

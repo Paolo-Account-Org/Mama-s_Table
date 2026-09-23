@@ -10,22 +10,22 @@ const foods = [
   {
     name: 'Kababayan',
     image: kababayanImg,
-    description: 'Description of food item 1.',
+    description: 'Kababayan is a Filipino sponge cake that is soft, fluffy, and often enjoyed with coffee or tea. It is a popular snack and dessert in the Philippines.',
   },
   {
     name: 'Embutido',
     image: embutidoImg,
-    description: 'Description of food item 2.',
+    description: 'Embutido is a type of Filipino sausage made from ground meat and seasoned with various spices. It is a popular appetizer or snack in the Philippines.',
   },
   {
     name: 'Mamon',
     image: mamonImg,
-    description: 'Description of food item 3.',
+    description: 'Mamon is a traditional Filipino dessert made from rice flour and sugar, often served during special occasions and celebrations.',
   },
   {
     name: 'Slice Bread',
     image: slicedBreadImg,
-    description: 'Description of food item 4.',
+    description: 'Slice bread is a common staple in the Philippines, often served with meals or used for sandwiches.',
   },
   {
     name: 'Food Item 5',
